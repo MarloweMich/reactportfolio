@@ -1,0 +1,11 @@
+.headerBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+}
