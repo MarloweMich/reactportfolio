@@ -3,4 +3,32 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+    /* flex-wrap: nowrap; */
+}
+
+.resume {
+    color: azure;
+    /* font-size: larger; */
+    columns: 3;
+    margin-inline: 3.2%;
+    margin-top: 2%;
+    background-color: rgb(59, 18, 146, .8);
+    border: 1px solid rgb(213, 207, 207);
+    padding: 2%;
+}
+
+.skillList {
+    columns: 2;
+    width: 100%;
+}
+
+.skillList p {
+  margin: 0%;
+  white-space: pre;
+}
+
+@media screen and (max-width: 900px) {
+    .resume {
+        columns: 1;
+    }
 }

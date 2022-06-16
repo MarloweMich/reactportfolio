@@ -5,7 +5,7 @@ function Aboutme() {
   return (
     <>
     <div className='blurb'>
-    <img className="img" src="Assets/Images/stunning_photograph.jpg" alt="Michael Marlowe" width="30%"/>
+    {/* <img className="img" src="Assets/Images/stunning_photograph.jpg" alt="Michael Marlowe" width="30%"/> */}
       Well-rounded Software Engineer and Web Developer. Received a certificate in Full Stack Web development from Georgia Tech. 
       Learned from the ground up starting with HTML, CSS and JavaScript before moving onto more comprehensive technologies with their 
       ease-of-life features. Always goal oriented and with focused attention to detail for all tasks. Previous fields of work include
