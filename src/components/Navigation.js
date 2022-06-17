@@ -59,7 +59,7 @@ const projects = [
 ]
 
 export default function Navigation() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Project');
 
   const renderPage = () => {
     if (currentPage === 'About') {

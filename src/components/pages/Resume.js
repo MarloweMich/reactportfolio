@@ -11,18 +11,18 @@ function Resume() {
         ________________
         
         <p>Full Stack Web Dev Certificate in Computer Programming
-        
+        <br/>
         * Georgia Tech Boot Camps - Atlanta, GA
-        
+        <br/>
         * Graduated June 15th, 2022
-        
-        ServSafe certified
-        
-        University of Georgia 2012-2013
-        
-        Gainesville State College 2010-2012
+        <br/>
+        * ServSafe certified
+        <br/>
+        * University of Georgia 2012-2013
+        <br/>
+        * Gainesville State College 2010-2012
         </p>
-        
+        <br/>
         
         
         <h5>Work Experience</h5>
@@ -30,11 +30,11 @@ function Resume() {
         ________________
         <p>
         Web Developer
-        
+        <br/>
         Freelance - Grayson, GA
-        
+        <br/>
         December 2021 to Present
-        
+        <br/>
         Focusing on ease of life functionality for professionals so they can
         focus on the work at hand while the details of keeping organized are
         taken care of.
@@ -44,44 +44,46 @@ function Resume() {
         
         
       </div>
+      <br/>
       <div className="skills">
-        <h5>Proficient in:</h5>
+        <h5>Proficiencies:</h5>
+        ________________
         <div className="skillList">
-        <p> *Boo</p>tstrap
+        <p> * Bootstrap</p>
         
-        <p> *CSS</p>3
+        <p> * CSS3</p>
         
-        <p> *Jav</p>aScript
+        <p> * JavaScript</p>
         
-        <p> *Git</p>
+        <p> * Git</p>
         
-        <p> *Nod</p>e.js
+        <p> * Node.js</p>
         
-        <p> *HTM</p>L5
+        <p> * HTML5</p>
         
-        <p> *jQu</p>ery
+        <p> * jQuery</p>
         
-        <p> *MyS</p>QL
+        <p> * MySQL</p>
         
-        <p> *Rea</p>ct
+        <p> * React</p>
         
-        <p> *Mon</p>goDB
+        <p> * MongoDB</p>
         
-        <p> *gra</p>phQL
+        <p> * graphQL</p>
+
+        <p> * Progressive Web Apps</p>
         
-        <p> *Pro</p>gressive Web Apps
+        <p> * Express.js</p>
         
-        <p> *Exp</p>ress.js
+        <p> * Handlebars</p>
         
-        <p> *Han</p>dlebars
+        <p> * PostgresQL</p>
         
-        <p> *Pos</p>tgresQL
+        <p> * Sequelize</p>
         
-        <p> *Seq</p>uelize
+        <p> * Mongoose</p>
         
-        <p> *Mon</p>goose
-        
-        <p> *RES</p>Tful API
+        <p> * RESTful API</p>
         </div>
         
       </div>
@@ -93,30 +95,40 @@ function Resume() {
         ________________
         <p>
          Kitchen Manager at Silver Queen in Monroe, Georgia.
-        
+        <br/>
         * Completed weekly inventory between $5000 and $9000 of product value on
         hand.
+        <br/>
         * Placed the truck orders to be in line with the current flow of
         business and in reference to food costs.
+        <br/>
         * Led a team of 10 people in a way to instill them all with a
         sense of ownership over their work and a feeling of validation for their
-        active participation.
+        participation.
+        <br/>
         * Mediated conflict management between employees.
         <br/><br/>
         
         Machine Operator at Walton Press in Monroe, Georgia.
+        <br/>
         * Calibrated the line machines for the specific product to be
         processed for each job.
+        <br/>
         * Matched all client specifications for design and proper
         information to be printed.
+        <br/>
         * Led a team of 3 people to stay on task and communicate
         constantly and clearly.
         <br/><br/>
         
          Electrician at TLS Electric in Smyrna, Georgia.
+         <br/>
          * Commercial Electrician for new constructions and renovations.
+         <br/>
          * Routed electrical systems throughout various structures.
+         <br/>
          * Installed HVAC control systems.
+         
          </p>
       </div>
     </div>

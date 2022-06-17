@@ -15,7 +15,7 @@ function Project(props) {
                     />
                     <a className='textDeployed' href={item.deployedLink}>Deployed Here</a>
                     <a className='textGithub' href={item.githubLink}>GitHub Repo</a>
-                    <p className='textTechs'>{item.techs}</p>
+                    {/* <p className='textTechs'>{item.techs}</p> */}
                     
                 </div>
             ))}

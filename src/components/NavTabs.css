@@ -4,17 +4,16 @@
         align-items: center;
         flex-direction: row;
         /* background-color: azure; */
-    
-}
-/* 
-.nav:active {
-        background-color: azure;
 }
 
-.nav-item{
+/* .nav:active {
+        /* background-color: azure;
+} */
+
+/* .nav-item{
         background-color: rgb(218, 246, 246);
-}
+} */
 
-.nav-link {
+/* .nav-link {
         background-color: rgb(218, 246, 246);
 } */
