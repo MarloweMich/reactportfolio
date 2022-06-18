@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+    max-width: 90vw;
 
 }
 
@@ -38,37 +38,74 @@
     display: none;
 }
 
-.card:hover {
-    width: 650px;
-    overflow-y: visible;
-    animation-duration: 3s;
-    transition-duration: .5s;
-    padding-bottom: 70px;
+@media screen and (min-width: 901px) {
+    .card:hover {
+        width: 650px;
+        overflow-y: visible;
+        animation-duration: 3s;
+        transition-duration: .5s;
+        padding-bottom: 70px;
+    }
+    
+    .card:hover .textDeployed {
+        position: absolute;
+        bottom: 2%;
+        left: 7%;
+        display: block;
+        /* background-color: rgba(243, 46, 190, 0.349);
+        color: azure; */
+    }
+    
+    .card:hover .textGithub {
+        position: absolute;
+        bottom: 2%;
+        right: 7%;
+        display: block;
+        /* background-color: rgba(243, 46, 190, 0.349);
+        color: azure; */
+    }
+    
+    .card:hover .textTechs {
+        position: absolute;
+        bottom: 7%;
+        left: 7%;
+        display: block;
+        /* background-color: rgba(243, 46, 190, 0.349);
+        color: azure; */
+    }
 }
 
-.card:hover .textDeployed {
-    position: absolute;
-    bottom: 2%;
-    left: 7%;
-    display: block;
-    /* background-color: rgba(243, 46, 190, 0.349);
-    color: azure; */
-}
 
-.card:hover .textGithub {
-    position: absolute;
-    bottom: 2%;
-    right: 7%;
-    display: block;
-    /* background-color: rgba(243, 46, 190, 0.349);
-    color: azure; */
-}
-
-.card:hover .textTechs {
-    position: absolute;
-    bottom: 7%;
-    left: 7%;
-    display: block;
-    /* background-color: rgba(243, 46, 190, 0.349);
-    color: azure; */
+@media screen and (max-width: 900px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 1%;
+        width: 450px;
+        padding: 1%;
+    }
+    
+    .textDeployed{
+        position: absolute;
+        bottom: 2%;
+        left: 7%;
+        display: block;
+    }
+    
+    .textGithub{
+        position: absolute;
+        bottom: 2%;
+        right: 7%;
+        display: block;
+    }
+    
+    .textTechs{
+        position: absolute;
+        bottom: 7%;
+        left: 7%;
+        display: block;
+    }
 }
