@@ -8,33 +8,41 @@ function Contact() {
 
   const handleFormSubmit = (event) => {
     console.log("handleSubmit ran");
-    event.preventDefault();
+    // event.preventDefault();
 
     setName("");
     setEmail("");
     setMessage("");
   };
 
+  // const ThankYou = () => {
+  //   alert("Thanks for opening up the conversation!")
+  // }
+
   return (
     <div className="container">
-      <form onSubmit={handleFormSubmit}>
+      <form action="https://formsubmit.co/marlowedev@gmail.com" method="POST" onSubmit={handleFormSubmit}>
         <input
           type="text"
           id="name"
           name="name"
           placeholder="Your name"
-          onChange={(event) => setName(event.target.value)}
-          value={name}
+          // onChange={(event) => setName(event.target.value)}
+          // value={name}
           required
         />
-
+        <input
+          type="hidden"
+          name="_next"
+          value="https://marlowemich.github.io/reactportfolio/#portfolio"
+        />
         <input
           type="email"
           id="email"
           name="email"
           placeholder="Your email"
-          onChange={(event) => setEmail(event.target.value)}
-          value={email}
+          // onChange={(event) => setEmail(event.target.value)}
+          // value={email}
           required
         />
 
@@ -42,11 +50,11 @@ function Contact() {
           id="subject"
           name="subject"
           placeholder="Let's talk!"
-          onChange={(event) => setMessage(event.target.value)}
-          value={message}
+          // onChange={(event) => setMessage(event.target.value)}
+          // value={message}
           required
         ></textarea>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit"/>
       </form>
     </div>
 
