@@ -21,7 +21,7 @@ function Contact() {
 
   return (
     <div className="container">
-      <form action="https://formsubmit.co/dd4c52eaa4abd546107da1973decc0b7" method="POST" onSubmit={handleFormSubmit}>
+      <form action="https://formsubmit.co/marlowedev@gmail.com" method="POST" onSubmit={handleFormSubmit}>
         <input
           type="text"
           id="name"
