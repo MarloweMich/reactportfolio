@@ -3,17 +3,16 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        /* background-color: azure; */
 }
 
-/* .nav:active {
-        /* background-color: azure;
-} */
 
-/* .nav-item{
-        background-color: rgb(218, 246, 246);
-} */
 
-/* .nav-link {
-        background-color: rgb(218, 246, 246);
-} */
+.nav-link{
+        color: azure !important;
+        text-decoration: none;
+}
+
+.active {
+        color: black !important;
+        background-color: azure !important;
+}

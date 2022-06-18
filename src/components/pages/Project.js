@@ -7,7 +7,7 @@ function Project(props) {
     return (
         <div className='cardContainer'>
             {props.projects.map(item => (
-                <div className='card hover-shadow' key={item.id}>
+                <div className='card' key={item.id}>
                     {/* <h6>{item.title}</h6> */}
                     <img className="card-img-top" src={item.img}
                          alt={item.title}

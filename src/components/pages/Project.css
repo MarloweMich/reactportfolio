@@ -11,8 +11,6 @@
 
 .card-img-top {
     border-bottom: .5px solid rgb(229, 223, 223);
-    /* background-color: rgba(243, 46, 190, 0.349);
-    color: azure; */
 }
 
 .card {
@@ -24,18 +22,26 @@
     margin: 1%;
     width: 450px;
     padding: 1%;
+    background-color: rgba(243, 46, 190, 0.55) !important;
+    color: azure; 
 }
 
 .textDeployed{
     display: none;
+    text-decoration: none;
+    color: azure;
 }
 
 .textGithub{
     display: none;
+    text-decoration: none;
+    color: azure;
 }
 
 .textTechs{
     display: none;
+    text-decoration: none;
+    color: azure;
 }
 
 @media screen and (min-width: 901px) {
@@ -44,7 +50,7 @@
         overflow-y: visible;
         animation-duration: 3s;
         transition-duration: .5s;
-        padding-bottom: 70px;
+        padding-bottom: 40px;
     }
     
     .card:hover .textDeployed {
@@ -52,8 +58,6 @@
         bottom: 2%;
         left: 7%;
         display: block;
-        /* background-color: rgba(243, 46, 190, 0.349);
-        color: azure; */
     }
     
     .card:hover .textGithub {
@@ -61,8 +65,6 @@
         bottom: 2%;
         right: 7%;
         display: block;
-        /* background-color: rgba(243, 46, 190, 0.349);
-        color: azure; */
     }
     
     .card:hover .textTechs {
@@ -70,8 +72,6 @@
         bottom: 7%;
         left: 7%;
         display: block;
-        /* background-color: rgba(243, 46, 190, 0.349);
-        color: azure; */
     }
 }
 
@@ -86,7 +86,7 @@
         margin: 1%;
         width: 450px;
         padding: 1%;
-        padding-bottom: 70px;
+        padding-bottom: 40px;
     }
     
     .textDeployed{
