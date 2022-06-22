@@ -50,11 +50,11 @@ const projects = [
   },
   {
     id: 6,
-    img: "Assets/Images/workday.png",
-    title: 'Workday Scheduler',
-    deployedLink: "https://marlowemich.github.io/workdayscheduler/",
-    githubLink: "github link",
-    techs: "HTML, CSS, JavaScript"
+    img: "Assets/Images/crood-survival.png",
+    title: 'Crood Survival',
+    deployedLink: "https://crood-survival.herokuapp.com",
+    githubLink: "https://github.com/MarloweMich/crood-survival",
+    techs: "HTML, CSS, JavaScript, React, node.js, mongoDB, graphql"
   }
 ]
 
