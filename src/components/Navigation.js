@@ -13,7 +13,7 @@ const projects = [
     img: "Assets/Images/planetplanters.png",
     title: 'Planet Planters',
     deployedLink: "https://planetplanters.herokuapp.com/",
-    githubLink: "github link",
+    githubLink: "https://github.com/ultimatejayfox/Planet-Planters",
     techs: "JavaScript, node.js, express.js, MySQL, Sequelize, Handlebars, SASS, HTML, CSS"
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     img: "Assets/Images/techblog.png",
     title: 'Tech Blog',
     deployedLink: "http://marlowetechblog.herokuapp.com/",
-    githubLink: "github link",
+    githubLink: "https://github.com/MarloweMich/Tech_Blog",
     techs: "Sequelize, Handlebars, MySQL, express.js, node.js, JavaScript, HTML, CSS"
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     img: "Assets/Images/bougiefoodieimg.png",
     title: 'BougieFoodie',
     deployedLink: "https://marlowemich.github.io/BougieFoodie/",
-    githubLink: "github link",
+    githubLink: "https://github.com/MarloweMich/BougieFoodie",
     techs: "HTML, CSS, JavaScript"
   },
   {
@@ -45,7 +45,7 @@ const projects = [
     img: "Assets/Images/weatherdashboard.png",
     title: 'Weather Dashboard',
     deployedLink: "https://marlowemich.github.io/weatherdashboard/",
-    githubLink: "github link",
+    githubLink: "https://github.com/MarloweMich/weatherdashboard",
     techs: "HTML, CSS, JavaScript"
   },
   {
