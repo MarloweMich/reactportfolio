@@ -46,7 +46,7 @@
 
 @media screen and (min-width: 901px) {
     .card:hover {
-        width: 650px;
+        width: 540px;
         overflow-y: visible;
         animation-duration: 3s;
         transition-duration: .5s;
